@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_list/widgets/left_drawer.dart';
-import 'package:shopping_list/screens/shoplist_form.dart';
-import 'package:shopping_list/screens/product_page.dart';
 import 'package:shopping_list/widgets/shop_card.dart';
 
 class HomePage extends StatelessWidget {
@@ -19,7 +17,6 @@ final List<ShopItem> items = [
       appBar: AppBar(
         backgroundColor: Colors.indigo,
         title: const Text(
-          
           'Shopping List', style: TextStyle(color: Colors.white),
         ),
       ),
